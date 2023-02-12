@@ -208,9 +208,10 @@ GameObject:
   - component: {fileID: 961699093}
   - component: {fileID: 1881350551923596351}
   - component: {fileID: 1181266299124856859}
+  - component: {fileID: 5155324015137679779}
   m_Layer: 2
   m_Name: Arrow
-  m_TagString: Untagged
+  m_TagString: arrow
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -263,13 +264,37 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: ArrowRequest, Assembly-CSharp
+        m_MethodName: Grabbed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
       m_Calls: []
   m_Activated:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: ArrowRequest, Assembly-CSharp
+        m_MethodName: Grabbed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_Deactivated:
     m_PersistentCalls:
       m_Calls: []
@@ -412,6 +437,21 @@ MonoBehaviour:
   _syncScale: 1
   _syncVelocity: 1
   _maintainOwnershipWhileSleeping: 0
+--- !u!114 &5155324015137679779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8542102953145869890}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d24d57164f066fa4e9ea2dfe13b22aa8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreEasy: 5
+  scoreMedium: 10
+  scoreHard: 15
 --- !u!1 &8589002692731022628
 GameObject:
   m_ObjectHideFlags: 0

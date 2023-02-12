@@ -6,11 +6,21 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class ArrowRequest : MonoBehaviour
 {
-    public Transform Quiver;
-    public string arrowName;
+    private RealtimeTransform RealtimeTransform;
+    private RealtimeView rtView;
+    public int ownership = -1;
 
-    public void SpawnArrow()
+    // Start is called before the first frame update
+    void Start()
     {
-        GameObject arrow = Realtime.Instantiate(arrowName, Quiver.position, Quiver.rotation);
+        RealtimeTransform = gameObject.GetComponent<RealtimeTransform>();
+        rtView = gameObject.GetComponent<RealtimeView>();
+    }
+
+    public void Grabbed()
+    {
+        RealtimeTransform.RequestOwnership();
+        rtView.RequestOwnership();
+        ownership = RealtimeTransform.ownerID;
     }
 }
