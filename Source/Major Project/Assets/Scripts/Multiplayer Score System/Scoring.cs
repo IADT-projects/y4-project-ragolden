@@ -23,7 +23,7 @@ public class Scoring : MonoBehaviour
     {
         if (other.gameObject.CompareTag("arrow"))
         {
-            Debug.Log("Target Hit");
+            //Debug.Log("Target Hit");
             ownerID = GameObject.Find("Bow").GetComponent<BowRequest>().ownership;
             _scoreBoard.SetScoreForPlayer(ownerID, score);
             GameObject.Find("Bow").GetComponent<BowRequest>().ownership = -1;

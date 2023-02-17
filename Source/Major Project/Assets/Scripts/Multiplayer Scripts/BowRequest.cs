@@ -8,6 +8,7 @@ public class BowRequest : MonoBehaviour
 {
     private RealtimeTransform RealtimeTransform;
     private Bow Bow;
+    private Bow BowTwo;
     public int ownership = -1;
 
     // Start is called before the first frame update
@@ -15,6 +16,7 @@ public class BowRequest : MonoBehaviour
     {
         RealtimeTransform = GetComponent<RealtimeTransform>();
         Bow = GetComponent<Bow>();
+        BowTwo = GetComponent<Bow>();
     }
 
     // Update is called once per frame
@@ -25,6 +27,12 @@ public class BowRequest : MonoBehaviour
             RealtimeTransform.RequestOwnership();
             ownership = RealtimeTransform.ownerID;
             //Debug.Log(ownership);
+        }
+
+        if (BowTwo.isSelected)
+        {
+            RealtimeTransform.RequestOwnership();
+            ownership = RealtimeTransform.ownerID;
         }
     }
 }
