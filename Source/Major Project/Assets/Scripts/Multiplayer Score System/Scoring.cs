@@ -19,14 +19,14 @@ public class Scoring : MonoBehaviour
         _scoreBoard = scoreBoardContainer.GetComponent<Scoreboard>();
     }
 
-    private void OnCollisionEnter(Collision other)
+    private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "targetEasy")
+        if (other.gameObject.CompareTag("arrow"))
         {
-            ownerID = other.gameObject.GetComponent<ArrowRequest>().ownership;
+            Debug.Log("Target Hit");
+            ownerID = GameObject.Find("Bow").GetComponent<BowRequest>().ownership;
             _scoreBoard.SetScoreForPlayer(ownerID, score);
-            other.gameObject.GetComponent<ArrowRequest>().ownership = -1;
+            GameObject.Find("Bow").GetComponent<BowRequest>().ownership = -1;
         }
     }
-
 }
