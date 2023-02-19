@@ -123,26 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &18131163 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8334584445467457064, guid: d702db24dc6b942428cbd9a3f3b64505, type: 3}
-  m_PrefabInstance: {fileID: 1477461954}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &18131167
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 18131163}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4660e5574c73b5f4b9ea1fa752f4e844, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scoreBoardContainer: {fileID: 1277717317}
-  score: 5
-  scoreText: {fileID: 317718759}
 --- !u!1 &124592840
 GameObject:
   m_ObjectHideFlags: 0
@@ -353,6 +333,26 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Untagged
       objectReference: {fileID: 0}
+    - target: {fileID: 4018949160956653587, guid: 0719a15cb4dd6534c8c7a2875cf8ef85, type: 3}
+      propertyPath: bow
+      value: 
+      objectReference: {fileID: 1934391821}
+    - target: {fileID: 4018949160956653587, guid: 0719a15cb4dd6534c8c7a2875cf8ef85, type: 3}
+      propertyPath: score
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4018949160956653587, guid: 0719a15cb4dd6534c8c7a2875cf8ef85, type: 3}
+      propertyPath: bowTwo
+      value: 
+      objectReference: {fileID: 1449767229}
+    - target: {fileID: 4018949160956653587, guid: 0719a15cb4dd6534c8c7a2875cf8ef85, type: 3}
+      propertyPath: scoreText
+      value: 
+      objectReference: {fileID: 1994553198}
+    - target: {fileID: 4018949160956653587, guid: 0719a15cb4dd6534c8c7a2875cf8ef85, type: 3}
+      propertyPath: scoreBoardContainer
+      value: 
+      objectReference: {fileID: 1277717317}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0719a15cb4dd6534c8c7a2875cf8ef85, type: 3}
 --- !u!4 &259407404 stripped
@@ -678,6 +678,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1962547237}
     m_Modifications:
+    - target: {fileID: 120023661636735432, guid: c049f1123a38d3b45933691cc8ea7930, type: 3}
+      propertyPath: bow
+      value: 
+      objectReference: {fileID: 1934391821}
+    - target: {fileID: 120023661636735432, guid: c049f1123a38d3b45933691cc8ea7930, type: 3}
+      propertyPath: score
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 120023661636735432, guid: c049f1123a38d3b45933691cc8ea7930, type: 3}
+      propertyPath: bowTwo
+      value: 
+      objectReference: {fileID: 1449767229}
+    - target: {fileID: 120023661636735432, guid: c049f1123a38d3b45933691cc8ea7930, type: 3}
+      propertyPath: scoreText
+      value: 
+      objectReference: {fileID: 2055739927}
+    - target: {fileID: 120023661636735432, guid: c049f1123a38d3b45933691cc8ea7930, type: 3}
+      propertyPath: scoreBoardContainer
+      value: 
+      objectReference: {fileID: 1277717317}
     - target: {fileID: 1249387233242491072, guid: c049f1123a38d3b45933691cc8ea7930, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -2179,6 +2199,14 @@ PrefabInstance:
       propertyPath: _viewUUID
       value: 1d99f091-aa01-452b-be3e-48bda423c589
       objectReference: {fileID: 0}
+    - target: {fileID: 7481705099017598800, guid: 6c3c0bfa92038bd4aa725e80a43ced1e, type: 3}
+      propertyPath: Bow
+      value: 
+      objectReference: {fileID: 1934391827}
+    - target: {fileID: 7481705099017598800, guid: 6c3c0bfa92038bd4aa725e80a43ced1e, type: 3}
+      propertyPath: BowTwo
+      value: 
+      objectReference: {fileID: 1449767235}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6c3c0bfa92038bd4aa725e80a43ced1e, type: 3}
 --- !u!4 &1359177875 stripped
@@ -2186,6 +2214,22 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5854033015894534605, guid: 6c3c0bfa92038bd4aa725e80a43ced1e, type: 3}
   m_PrefabInstance: {fileID: 1290951083}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1449767229 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2589571369817754473, guid: 6c3c0bfa92038bd4aa725e80a43ced1e, type: 3}
+  m_PrefabInstance: {fileID: 1290951083}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1449767235 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 705318187586076703, guid: 6c3c0bfa92038bd4aa725e80a43ced1e, type: 3}
+  m_PrefabInstance: {fileID: 1290951083}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1449767229}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bed6d8822a925ec43a36f07d632808d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1477461954
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2193,6 +2237,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1962547237}
     m_Modifications:
+    - target: {fileID: 5487786554762768064, guid: d702db24dc6b942428cbd9a3f3b64505, type: 3}
+      propertyPath: bow
+      value: 
+      objectReference: {fileID: 1934391821}
+    - target: {fileID: 5487786554762768064, guid: d702db24dc6b942428cbd9a3f3b64505, type: 3}
+      propertyPath: score
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5487786554762768064, guid: d702db24dc6b942428cbd9a3f3b64505, type: 3}
+      propertyPath: bowTwo
+      value: 
+      objectReference: {fileID: 1449767229}
+    - target: {fileID: 5487786554762768064, guid: d702db24dc6b942428cbd9a3f3b64505, type: 3}
+      propertyPath: scoreText
+      value: 
+      objectReference: {fileID: 317718759}
+    - target: {fileID: 5487786554762768064, guid: d702db24dc6b942428cbd9a3f3b64505, type: 3}
+      propertyPath: scoreBoardContainer
+      value: 
+      objectReference: {fileID: 1277717317}
     - target: {fileID: 7496398002035238601, guid: d702db24dc6b942428cbd9a3f3b64505, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -2379,31 +2443,11 @@ Transform:
   m_Father: {fileID: 1483435454}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1645485928 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 275785305337550657, guid: 0719a15cb4dd6534c8c7a2875cf8ef85, type: 3}
-  m_PrefabInstance: {fileID: 259407403}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1645485929 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4333982738083910742, guid: 0719a15cb4dd6534c8c7a2875cf8ef85, type: 3}
   m_PrefabInstance: {fileID: 259407403}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1645485930
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1645485928}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4660e5574c73b5f4b9ea1fa752f4e844, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scoreBoardContainer: {fileID: 1277717317}
-  score: 15
-  scoreText: {fileID: 1994553198}
 --- !u!1 &1655772792
 GameObject:
   m_ObjectHideFlags: 0
@@ -2870,6 +2914,22 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5854033015894534605, guid: 6c3c0bfa92038bd4aa725e80a43ced1e, type: 3}
   m_PrefabInstance: {fileID: 2075661636}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1934391821 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2589571369817754473, guid: 6c3c0bfa92038bd4aa725e80a43ced1e, type: 3}
+  m_PrefabInstance: {fileID: 2075661636}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1934391827 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 705318187586076703, guid: 6c3c0bfa92038bd4aa725e80a43ced1e, type: 3}
+  m_PrefabInstance: {fileID: 2075661636}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1934391821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bed6d8822a925ec43a36f07d632808d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1937001103
 GameObject:
   m_ObjectHideFlags: 0
@@ -2903,26 +2963,6 @@ Transform:
   m_Father: {fileID: 1729640854}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1950108511 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1390870948940131170, guid: c049f1123a38d3b45933691cc8ea7930, type: 3}
-  m_PrefabInstance: {fileID: 471405635}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1950108515
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1950108511}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4660e5574c73b5f4b9ea1fa752f4e844, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scoreBoardContainer: {fileID: 1277717317}
-  score: 10
-  scoreText: {fileID: 2055739927}
 --- !u!1 &1962547236
 GameObject:
   m_ObjectHideFlags: 0
@@ -3327,5 +3367,13 @@ PrefabInstance:
       propertyPath: _viewUUID
       value: ed335161-acc5-477b-b345-de2065a5ec48
       objectReference: {fileID: 0}
+    - target: {fileID: 7481705099017598800, guid: 6c3c0bfa92038bd4aa725e80a43ced1e, type: 3}
+      propertyPath: Bow
+      value: 
+      objectReference: {fileID: 1934391827}
+    - target: {fileID: 7481705099017598800, guid: 6c3c0bfa92038bd4aa725e80a43ced1e, type: 3}
+      propertyPath: BowTwo
+      value: 
+      objectReference: {fileID: 1449767235}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6c3c0bfa92038bd4aa725e80a43ced1e, type: 3}

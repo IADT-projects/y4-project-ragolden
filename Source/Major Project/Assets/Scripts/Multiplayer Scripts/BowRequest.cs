@@ -29,7 +29,7 @@ public class BowRequest : MonoBehaviour
             //Debug.Log(ownership);
         }
 
-        if (BowTwo.isSelected)
+        else if (BowTwo.isSelected)
         {
             RealtimeTransform.RequestOwnership();
             ownership = RealtimeTransform.ownerID;
