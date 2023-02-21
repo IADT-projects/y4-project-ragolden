@@ -5,14 +5,14 @@ using TMPro;
 using UnityEngine.UI;
 using UnityEngine.XR.Interaction.Toolkit;
 
-public class Scoring : MonoBehaviour
+public class ScoringTwo : MonoBehaviour
 {
     public GameObject scoreBoardContainer;
 
-    public GameObject bow;
-    //public GameObject bowTwo;
-    private Bow Bow;
-    //private Bow BowTwo;
+    //public GameObject bow;
+    public GameObject bowTwo;
+    //private Bow Bow;
+    private Bow BowTwo;
     
     private Scoreboard _scoreBoard;
     private int ownerID = -1;
@@ -24,19 +24,19 @@ public class Scoring : MonoBehaviour
     {
         scoreText.text = score.ToString();
         _scoreBoard = scoreBoardContainer.GetComponent<Scoreboard>();
-        Bow = bow.GetComponent<Bow>();
-        //BowTwo = bowTwo.GetComponent<Bow>();
+        //Bow = bow.GetComponent<Bow>();
+        BowTwo = bowTwo.GetComponent<Bow>();
     }
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("arrow"))
         {
-            if (Bow.isSelected)
+            if (BowTwo.isSelected)
             {
-                ownerID = GameObject.Find("Bow").GetComponent<BowRequest>().ownership;
+                ownerID = GameObject.Find("BowTwo").GetComponent<BowRequest>().ownership;
                 _scoreBoard.SetScoreForPlayer(ownerID, score);
-                GameObject.Find("Bow").GetComponent<BowRequest>().ownership = -1;
+                GameObject.Find("BowTwo").GetComponent<BowRequest>().ownership = -1;
             }
         }
     }

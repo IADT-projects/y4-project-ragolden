@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 834452947300284373}
   - component: {fileID: 5619294711929004631}
   - component: {fileID: 6224796433089439474}
-  - component: {fileID: 4018949160956653587}
   m_Layer: 0
   m_Name: polySurface41
   m_TagString: Untagged
@@ -96,23 +95,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.40971237, y: 0.4666458, z: 0.20799787}
   m_Center: {x: 0.000000022351742, y: 0, z: 0}
---- !u!114 &4018949160956653587
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 275785305337550657}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a5f4b865a82827b48a39f52e91e0170d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scoreBoardContainer: {fileID: 0}
-  bow: {fileID: 0}
-  bowTwo: {fileID: 0}
-  score: 0
-  scoreText: {fileID: 0}
 --- !u!1 &3464912632980582816
 GameObject:
   m_ObjectHideFlags: 0
