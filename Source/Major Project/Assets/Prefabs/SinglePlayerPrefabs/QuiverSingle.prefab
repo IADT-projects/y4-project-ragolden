@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 9043562450772434535}
   - component: {fileID: 9043562450772434534}
   m_Layer: 0
-  m_Name: Quiver 1
+  m_Name: QuiverSingle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -2,12 +2,12 @@
 
 public class BowSingle : XRGrabInteractable
 {
-    private NotchSingle notch = null;
+    private Notch notch = null;
 
     protected override void Awake()
     {
         base.Awake();
-        notch = GetComponentInChildren<NotchSingle>();
+        notch = GetComponentInChildren<Notch>();
     }
 
     protected override void OnEnable()

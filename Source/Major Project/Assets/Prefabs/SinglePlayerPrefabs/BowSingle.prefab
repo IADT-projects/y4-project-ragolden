@@ -69,7 +69,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1137606935514613497}
-  - component: {fileID: 7692001021239296150}
+  - component: {fileID: 2367692438469741233}
   - component: {fileID: 1137606935514613500}
   - component: {fileID: 1137606935514613498}
   m_Layer: 0
@@ -95,7 +95,7 @@ Transform:
   m_Father: {fileID: 5854033015894534605}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7692001021239296150
+--- !u!114 &2367692438469741233
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -104,14 +104,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1137606935514613496}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2cea88723d8ae96409a61bacbe6dd43a, type: 3}
+  m_Script: {fileID: 11500000, guid: 477605e3da91f604aaf76799722140f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 0}
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_AttachTransform: {fileID: 0}
+  m_AttachTransform: {fileID: 1829499459514159683}
   m_StartingSelectedInteractable: {fileID: 0}
   m_HoverEntered:
     m_PersistentCalls:
@@ -137,7 +137,7 @@ MonoBehaviour:
   m_OnSelectExited:
     m_PersistentCalls:
       m_Calls: []
-  m_ShowInteractableHoverMeshes: 1
+  m_ShowInteractableHoverMeshes: 0
   m_InteractableHoverMeshMaterial: {fileID: 0}
   m_InteractableCantHoverMeshMaterial: {fileID: 0}
   m_SocketActive: 1
@@ -302,7 +302,7 @@ GameObject:
   - component: {fileID: 420424634}
   - component: {fileID: 420424635}
   m_Layer: 0
-  m_Name: Bow 1
+  m_Name: BowSingle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
