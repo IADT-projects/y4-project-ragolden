@@ -8,5 +8,6 @@ public class SinglePlayerLoader : MonoBehaviour
     public void LoadScene()
     {
         SceneManager.LoadScene("SinglePlayerScene");
+        ScoreController.score = 0;
     }
 }
