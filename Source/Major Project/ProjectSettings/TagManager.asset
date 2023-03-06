@@ -9,6 +9,8 @@ TagManager:
   - targetHard
   - bow
   - arrow
+  - arrowAmmo
+  - target
   layers:
   - Default
   - TransparentFX

@@ -331,7 +331,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3464912632980582816, guid: 0719a15cb4dd6534c8c7a2875cf8ef85, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: target
       objectReference: {fileID: 0}
     - target: {fileID: 4018949160956653587, guid: 0719a15cb4dd6534c8c7a2875cf8ef85, type: 3}
       propertyPath: bow
@@ -844,7 +844,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1390870948940131170, guid: c049f1123a38d3b45933691cc8ea7930, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: target
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c049f1123a38d3b45933691cc8ea7930, type: 3}
@@ -1006,7 +1006,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8334584445467457064, guid: d702db24dc6b942428cbd9a3f3b64505, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: target
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -1259,7 +1259,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1390870948940131170, guid: c049f1123a38d3b45933691cc8ea7930, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: target
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -3171,7 +3171,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8334584445467457064, guid: d702db24dc6b942428cbd9a3f3b64505, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: target
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d702db24dc6b942428cbd9a3f3b64505, type: 3}
@@ -4426,7 +4426,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3464912632980582816, guid: 0719a15cb4dd6534c8c7a2875cf8ef85, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: target
       objectReference: {fileID: 0}
     - target: {fileID: 4018949160956653587, guid: 0719a15cb4dd6534c8c7a2875cf8ef85, type: 3}
       propertyPath: bow

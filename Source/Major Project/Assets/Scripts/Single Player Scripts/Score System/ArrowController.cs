@@ -9,32 +9,21 @@ public class ArrowController : MonoBehaviour
     public int scoreMedium = 10;
     public int scoreHard = 15;
 
-    //public AudioSource impact;
-
-    void Start()
-    {
-        //impact = GetComponent<AudioSource>();
-    }
-
     private void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.CompareTag("targetEasy"))
         {
             ScoreController.score += scoreEasy;
-            //impact.Play();
         }
 
         if(other.gameObject.CompareTag("targetMedium"))
         {
             ScoreController.score += scoreMedium;
-            //impact.Play();
         }
 
         if(other.gameObject.CompareTag("targetHard"))
         {
             ScoreController.score += scoreHard;
-            //Plays the impact noise whenever an arrow comes in contact with a target
-            //impact.Play();
         }
     }
 

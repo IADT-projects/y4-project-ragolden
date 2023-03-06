@@ -46,7 +46,7 @@ public class Notch : XRSocketInteractor
         if (selectTarget is Arrow && PullMeasurer.PullAmount > releaseThreshold)
             CustomManager.ForceDeselect(this);
             //Plays the fire noise whenever the string is released
-            //fire.Play();
+            fire.Play();
     }
 
     public void MoveAttach(Vector3 pullPosition, float pullAmount)
