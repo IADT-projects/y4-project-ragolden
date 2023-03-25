@@ -5,9 +5,6 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/StartScreen.unity
     guid: 3df6a443b322fa64d9a02cd65aa783f6
@@ -17,27 +14,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MultiPlayerScene1.unity
     guid: 64dd5acfc69b0e04dba4912e263b3bda
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/MultiPlayerScene2.unity
-    guid: 6bbf692048fba164cb30eea8a29735b9
+    guid: a4af331730031f941b8c807a02e99b0b
   - enabled: 1
     path: Assets/Scenes/MultiPlayerScene3.unity
-    guid: c2c0e4f5794542e4fa8c5498a1e6c2e2
+    guid: 4d541963eb8d36546a57e3b951e91a94
   - enabled: 1
     path: Assets/Scenes/MultiPlayerScene4.unity
-    guid: d8c77736825423f489b6bb5624aec791
+    guid: a6015b6ef59298743b9a52d46327dfa7
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 05e7decc3a5c13a48a6b372639a19f8f, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 874fcfd1debc0ce4aa416b887bb25f4f, type: 2}
