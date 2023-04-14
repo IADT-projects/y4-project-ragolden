@@ -7,6 +7,7 @@ using UnityEngine.UI;
 
 public class ScoreSync : RealtimeComponent
 {
+    //Reference to Model
     private ScoreSyncModel _model;
     private TMP_Text _scoreText;
 
@@ -39,16 +40,19 @@ public class ScoreSync : RealtimeComponent
         }
     }
 
+    //Updates score when change is detected
     private void ScoreDidChange(ScoreSyncModel model, int value)
     {
         UpdateDisplayScore();
     }
 
+    //Updates score by pulling the data from the model
     private void UpdateDisplayScore()
     {
         _scoreText.text = "Score: " + _model.playerScore;
     }
 
+    //Gets player score attached to Avatars in game
     public int GetScore()
     {
         return _model.playerScore;
