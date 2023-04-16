@@ -27,13 +27,13 @@ public class ArrowController : MonoBehaviour
         }
     }
 
-    //void Update()
-    //{
-    //    if (CountdownTimer.currentTime <= 0)
-    //    {
-    //        scoreEasy = 0;
-    //        scoreMedium = 0;
-    //        scoreHard = 0;
-    //    }
-    //}
+    void Update()
+    {
+        if (CountdownTimer.currentTime <= 0)
+        {
+            scoreEasy = 0;
+            scoreMedium = 0;
+            scoreHard = 0;
+        }
+    }
 }
