@@ -1,4 +1,4 @@
-# Project_y4 DL836
+# VR Mulriplayer Archery Game
 ## Source
 
 The application was built using the Unity Editor Version 2020.3.18f1
@@ -8,9 +8,9 @@ Following this, click the "Open" button in the Unity Editor, navigate to the dow
 
 The plugins necessary for the file to build properly include: 
 
-XR Interaction Toolkit Version 1.0.0-pre.3
-XR Plugin Management
-Oculus XR Plugin
+XR Interaction Toolkit Version 1.0.0-pre.3<br>
+XR Plugin Management<br>
+Oculus XR Plugin<br>
 OpenXR Plugin
 
 All of which can be enabled within Unity in the Package Manager.
